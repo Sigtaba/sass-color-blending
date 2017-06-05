@@ -1,0 +1,115 @@
+.tealblend-teal {
+  background-color: teal; }
+
+.magentablend-teal {
+  background-color: #315384; }
+
+.goldenblend-teal {
+  background-color: #4c8d5e; }
+
+.skyblueblend-teal {
+  background-color: #0096ac; }
+
+.tealblend-magenta {
+  background-color: #5a2d87; }
+
+.magentablend-magenta {
+  background-color: darkmagenta; }
+
+.goldenblend-magenta {
+  background-color: #a73a66; }
+
+.skyblueblend-magenta {
+  background-color: #5a43b4; }
+
+.tealblend-golden {
+  background-color: #8e9842; }
+
+.magentablend-golden {
+  background-color: #be6b45; }
+
+.goldenblend-golden {
+  background-color: goldenrod; }
+
+.skyblueblend-golden {
+  background-color: #8eae6e; }
+
+.tealblend-skyblue {
+  background-color: #00a9d3; }
+
+.magentablend-skyblue {
+  background-color: #317cd6; }
+
+.goldenblend-skyblue {
+  background-color: #4cb6b1; }
+
+.skyblueblend-skyblue {
+  background-color: deepskyblue; }
+
+td {
+  text-align: right; }
+
+h1 {
+  font-family: sans-serif; }
+
+.box {
+  height: 200px;
+  width: auto; }
+
+.mixbox {
+  height: 50px; }
+
+.box-1 {
+  background-color: teal; }
+
+.box-2 {
+  background-color: #8B008B; }
+
+.box-3 {
+  background-color: #DAA520; }
+
+.box-4 {
+  background-color: #00BFFF; }
+
+.teal-tint .s4:nth-child(1) {
+  background-color: #00b3b3; }
+.teal-tint .s4:nth-child(2) {
+  background-color: teal; }
+.teal-tint .s4:nth-child(3) {
+  background-color: #004d4d; }
+
+.magenta-tint, .teal-tint, .golden-tint, .skyblue-tint {
+  height: 200px; }
+
+.s4 {
+  height: 100%; }
+
+.magenta-tint .s4:nth-child(1) {
+  background-color: #be00be; }
+.magenta-tint .s4:nth-child(2) {
+  background-color: #8B008B; }
+.magenta-tint .s4:nth-child(3) {
+  background-color: #580058; }
+
+.teal-tint .s4:nth-child(1) {
+  background-color: #00b3b3; }
+.teal-tint .s4:nth-child(2) {
+  background-color: teal; }
+.teal-tint .s4:nth-child(3) {
+  background-color: #004d4d; }
+
+.golden-tint .s4:nth-child(1) {
+  background-color: #e4b849; }
+.golden-tint .s4:nth-child(2) {
+  background-color: #DAA520; }
+.golden-tint .s4:nth-child(3) {
+  background-color: #ae8319; }
+
+.skyblue-tint .s4:nth-child(1) {
+  background-color: #33ccff; }
+.skyblue-tint .s4:nth-child(2) {
+  background-color: #00BFFF; }
+.skyblue-tint .s4:nth-child(3) {
+  background-color: #0099cc; }
+
+/*# sourceMappingURL=styles.css.map */

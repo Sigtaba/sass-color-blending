@@ -1,0 +1,87 @@
+@import "variable";
+
+td {
+  text-align: right;
+}
+
+h1 {
+  font-family: sans-serif;
+}
+
+.box {
+  height: 200px;
+  width: auto;
+}
+
+.mixbox {
+  height: 50px;
+}
+
+
+.box-1 {
+  background-color: $teal-color;
+}
+
+.box-2 {
+  background-color: $magenta-color;
+}
+
+.box-3 {
+  background-color: $golden-color;
+}
+
+.box-4 {
+  background-color: $skyblue-color;
+}
+
+.teal-tint .s4 {
+  &:nth-child(1){
+    background-color: $teal-color-light;}
+  &:nth-child(2){
+    background-color: $teal-color;}
+  &:nth-child(3){
+    background-color: $teal-color-dark;}
+}
+
+.magenta-tint, .teal-tint, .golden-tint, .skyblue-tint {
+  height: 200px;
+}
+
+.s4 {
+  height: 100%;
+}
+.magenta-tint .s4{
+  &:nth-child(1){
+    background-color: $magenta-color-light;}
+  &:nth-child(2){
+    background-color: $magenta-color;}
+  &:nth-child(3){
+    background-color: $magenta-color-dark;}
+}
+
+.teal-tint .s4 {
+  &:nth-child(1){
+    background-color: $teal-color-light;}
+  &:nth-child(2){
+    background-color: $teal-color;}
+  &:nth-child(3){
+    background-color: $teal-color-dark;}
+}
+
+.golden-tint .s4 {
+  &:nth-child(1){
+    background-color: $golden-color-light;}
+  &:nth-child(2){
+    background-color: $golden-color;}
+  &:nth-child(3){
+    background-color: $golden-color-dark;}
+}
+
+.skyblue-tint .s4 {
+  &:nth-child(1){
+    background-color: $skyblue-color-light;}
+  &:nth-child(2){
+    background-color: $skyblue-color;}
+  &:nth-child(3){
+    background-color: $skyblue-color-dark;}
+}

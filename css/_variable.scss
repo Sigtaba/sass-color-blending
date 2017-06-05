@@ -1,0 +1,72 @@
+$teal-color: teal;
+$teal-color-light: false !default;
+$teal-color-dark: false !default;
+
+@if not $teal-color-light {
+  $teal-color-light: lighten($teal-color, 10%);
+}
+
+@if not $teal-color-dark {
+  $teal-color-dark: darken($teal-color, 10%);
+}
+
+$magenta-color: #8B008B;
+$magenta-color-light: false !default;
+$magenta-color-dark: false !default;
+
+@if not $magenta-color-light {
+  $magenta-color-light: lighten($magenta-color, 10%);
+}
+
+@if not $magenta-color-dark {
+  $magenta-color-dark: darken($magenta-color, 10%)
+}
+
+$golden-color: #DAA520;
+$golden-color-light: false !default;
+$golden-color-dark: false !default;
+
+@if not $golden-color-light {
+  $golden-color-light: lighten($golden-color, 10%);
+}
+
+@if not $golden-color-dark {
+  $golden-color-dark: darken($golden-color, 10%)
+}
+
+$skyblue-color: #00BFFF;
+$skyblue-color-light: false !default;
+$skyblue-color-dark: false !default;
+
+@if not $skyblue-color-light {
+  $skyblue-color-light: lighten($skyblue-color, 10%);
+}
+
+@if not $skyblue-color-dark {
+  $skyblue-color-dark: darken($skyblue-color, 10%)
+}
+
+$blendpercentage: 35%;
+
+$colors: (
+  'teal': $teal-color,
+  'magenta': $magenta-color,
+  'golden': $golden-color,
+  'skyblue': $skyblue-color
+);
+
+@each $color, $hex in $colors
+{
+  .tealblend-#{$color} {
+  background-color: mix($teal-color, $hex, $blendpercentage)
+  }
+  .magentablend-#{$color} {
+  background-color: mix($magenta-color, $hex, $blendpercentage)
+  }
+  .goldenblend-#{$color} {
+  background-color: mix($golden-color, $hex, $blendpercentage)
+  }
+  .skyblueblend-#{$color} {
+  background-color: mix($skyblue-color, $hex, $blendpercentage)
+  }
+}
